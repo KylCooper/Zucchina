@@ -84,10 +84,12 @@ nav{
 .arrow-right{
     width: 15px;
     height: 21px;
+    cursor: pointer;
 }
 .refresh{
     width: 25px;
     height: 25px;
+    cursor: pointer;
 }
 /* --------------------- */
 
