@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zucchina</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0dd1646de4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NavBar -->
+    <nav>
+        <!-- Logo and Title -->
+        <div class="logoAndtitle">
+            <img src="./Image/Logo.png" alt="Courgette-pixel-art" class="logo">
+            <h1 class="main-title">Zucchina</h1>
+        </div>
+        <!-- ---- --- ----- -->
+
+        <!-- login and logout -->
+        <div class="login-logout">
+            <img src="./Image/Group 30.png" alt="Icon-de-connexion" class="account-icon">
+        </div>
+        <!-- ---------------- -->
+    </nav>
+    <!-- ------ -->
+
+    <section class="main-container">
+
+            <!-- Section Timer -->
+    <section class="timer-container">
+        <div class="timer-option">
+            <div id="timer" class="timer">25:00</div>
+            <div class="option">
+                <img  id="skipTimer" src="./Image/chevron right_.png" alt="fleche-vers-la-droite" class="arrow-right">
+                <img  id="resetTimer" src="./Image/icon _reload_.png" alt="rafraichir-le-timer"class="refresh">
+            </div>
+        </div>
+    </section>
+    <!------------------->
+
+    <!-- Section Todo Button Settings -->
+    <section class="TodoButtonSettings">
+
+        <!-- Todo list -->
+        <div class="todo-container">
+            <div class="todo-title-container">
+                <div class="title-border">
+                    <p class="todo-title">To-Do List</p>
+                </div>
+            </div>
+            <div class="task-container">
+                <li class="task-list">- First Task</li>
+                <li class="task-list">- Second Task</li>
+                <li class="task-list">- Third Task</li>
+                <li class="task-list">- A very very long task for the task list container you know</li>
+            </div>
+            <div class="up-arrow-container">
+                <img src="./Image/icon _chevron up_.png" alt="" class="up-arrow">
+            </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="buttons-container">
+
+            <div class="button-holder">
+                <button id="defaultButton" class="buttons-timer">Default<br>Time</button>
+                <button id="shortButton" class="buttons-timer">Short<br>Break</button>
+                <button id="longButton" class="buttons-timer">Long<br>Break</button>
+                <button id="autoButton" class="buttons-timer ">Auto<br>Timer</button>
+            </div>
+
+            <div class="Start-button-container">
+                <button id="start" class="Start-Button">Start</button>
+            </div>
+
+            <div class="time-conatiner">
+                <div class="dot-holder">
+                    <div id="trackingDot1" class="dot-timer "></div>
+                    <div id="trackingDot2" class="dot-timer"></div>
+                    <div id="trackingDot3" class="dot-timer"></div>
+                    <div id="trackingDot4" class="dot-timer"></div>
+                </div>
+            </div>
+
+            <div class="add-task-container">
+                <button class="Add-task"><span class="cross">+</span></button>
+            </div>
+
+            <div class="empty-space">
+
+            </div>
+
+        </div>
+
+        <!-- Settings -->
+        <div class="settings-container">
+            <div class="settings-link-holder">
+                <a href="#" class="setting-link">Settings</a>
+            </div>
+        </div>
+
+    </section>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
